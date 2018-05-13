@@ -58,13 +58,19 @@ simple example of virtualenv
 >
 >> ### Execute
 >>```
->> python source_code.py
+>> python example_source_code_of_tensorflow.py
 >>```
 >
 > # Deactivate Virtualenv
 >```
 >(tensorflow180_python2710) $ deactivate
 >```
+
+
+# Once All process
+```
+. make_and_execute.sh
+```
 
 
 # Reference
