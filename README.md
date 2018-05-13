@@ -44,22 +44,22 @@ simple example of virtualenv
 > ```
 >
 > # Execute a example of TensorFlow
->> ### Source code
->> ```
->> import tensorflow as tf
->> hello = tf.constant('Hello, TensorFlow!')
->> sess = tf.Session()
->> print(sess.run(hello))
->>
->> a = tf.constant(10)
->> b = tf.constant(32)
->> print(sess.run(a + b))
->> ```
->>
->>> ### Execute
->>>```
->>> python source_code.py
->>>```
+> ### Source code
+> ```
+> import tensorflow as tf
+> hello = tf.constant('Hello, TensorFlow!')
+> sess = tf.Session()
+> print(sess.run(hello))
+>
+> a = tf.constant(10)
+> b = tf.constant(32)
+> print(sess.run(a + b))
+> ```
+>
+>> ### Execute
+>>```
+>> python source_code.py
+>>```
 >
 > # Deactivate Virtualenv
 >```
